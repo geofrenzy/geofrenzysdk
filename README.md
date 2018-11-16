@@ -17,13 +17,13 @@ GeoFrenzy is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GeoFrenzy'
+pod 'GeoFrenzy', :git => 'https://github.com/geofrenzy/geofrenzysdk.git'
 ```
 
 ## Author
 
-shbli, q8.g@msn.com
+Ben Tally, ben.tally@geo.network
 
 ## License
 
-GeoFrenzy is available under the MIT license. See the LICENSE file for more info.
+GeoFrenzy is available under the Proprietary license. See the LICENSE file for more info.
