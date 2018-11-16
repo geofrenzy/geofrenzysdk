@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://developer.smartfences.place'
   s.license          = { :type => 'Proprietary', :file => 'LICENSE' }
   s.author           = { 'Ben Tally' => 'ben.tally@geo.network' }
-  s.source           = { :http => 'https://github.com/geofrenzy/geofrenzysdk', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.source           = { :git => 'https://github.com/geofrenzy/geofrenzysdk.git', :tag => s.version }
+  s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'GeoFrenzy/Frameworks/GeoFrenzy.framework'
   s.dependency 'Protobuf', '~> 3.5.0'
   s.dependency 'CouchbaseLite'

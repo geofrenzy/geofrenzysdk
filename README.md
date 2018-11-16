@@ -17,7 +17,7 @@ GeoFrenzy is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GeoFrenzy', :git => 'https://github.com/geofrenzy/geofrenzysdk.git'
+pod 'GeoFrenzy'
 ```
 
 ## Author
