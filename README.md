@@ -26,6 +26,7 @@ https://developer.smartfences.place/
 ## Dependencies
 
 Protobuf, https://github.com/protocolbuffers/protobuf
+
 CouchbaseLite, https://github.com/couchbase/couchbase-lite-ios
 
 ## Author
