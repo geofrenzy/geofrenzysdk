@@ -298,16 +298,16 @@
 /**
  Register application states to be monitored for complance with rules provided by your control panel.
  */
-- (void) registerStateForMonitoring: (NSString*_Nonnull) propertyName withPath: (NSString*_Nonnull) path onObject: (id _Nonnull ) object atRate: (double) seconds;
+- (void) registerCondition: (NSString*_Nonnull) propertyName withPath: (NSString*_Nonnull) path onObject: (id _Nonnull ) object atRate: (double) seconds;
 /**
  Register handler for conditional logic expressions expressed by users of your control panel with a polling rate in milliseconds.
  */
-- (void) registerStateForMonitoring: (NSString*_Nonnull) propertyName withPath: (NSString*_Nonnull) path onObject: (id _Nonnull ) object;
+- (void) registerCondition: (NSString*_Nonnull) propertyName withPath: (NSString*_Nonnull) path onObject: (id _Nonnull ) object;
 
 /**
  Register handler for conditional logic expressions expressed by users of your control panel.
  */
-- (void) registerCommandHandler: (NSString*_Nonnull) methodName withPath: (NSString*_Nonnull) path onObject: (id _Nonnull ) object;
+- (void) registerAction: (NSString*_Nonnull) methodName withPath: (NSString*_Nonnull) path onObject: (id _Nonnull ) object;
 - (void) processStates;
 - (void) processCommands;
 /**

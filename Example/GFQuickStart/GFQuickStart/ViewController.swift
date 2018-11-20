@@ -70,7 +70,7 @@ class ViewController: UIViewController, FencingAgentDelegate  {
         
         let fa = FencingAgent(config:fac)
         
-        fa.registerCommandHandler("setColorWithRuleColor", withPath: ".place.controltype.geonetwork.gfquickstart.displaycolor", on: self)
+        fa.registerAction("setColorWithRuleColor", withPath: ".place.controltype.geonetwork.gfquickstart.displaycolor", on: self)
         
         print ("ambient: \(fa.ambientFences.count)")
         

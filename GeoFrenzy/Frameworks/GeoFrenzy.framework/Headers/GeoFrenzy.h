@@ -26,7 +26,6 @@
 //#import "NSString+Reverse.h"
 #import "FencingAgentConfig.h"
 //#import "FenceClass.h"
-#import "FencingAgentConfig.h"
 //#import "FencingAgentSpeech.h"
 
 
