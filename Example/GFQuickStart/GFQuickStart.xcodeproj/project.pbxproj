@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		668B19A2ECF51B49B56D3396 /* Pods_GFQuickStart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179E9621446C9331C182D093 /* Pods_GFQuickStart.framework */; };
+		C2A3B94621A34797004D7393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3B94521A34797004D7393 /* AppDelegate.swift */; };
+		C2A3B94821A34797004D7393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3B94721A34797004D7393 /* ViewController.swift */; };
+		C2A3B94B21A34797004D7393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A3B94921A34797004D7393 /* Main.storyboard */; };
+		C2A3B94D21A34798004D7393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A3B94C21A34798004D7393 /* Assets.xcassets */; };
+		C2A3B95021A34798004D7393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A3B94E21A34798004D7393 /* LaunchScreen.storyboard */; };
+		C2A3B95B21A34798004D7393 /* GFQuickStartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3B95A21A34798004D7393 /* GFQuickStartTests.swift */; };
+		C2A3B96621A34798004D7393 /* GFQuickStartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3B96521A34798004D7393 /* GFQuickStartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2A3B95721A34798004D7393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A3B93A21A34797004D7393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A3B94121A34797004D7393;
+			remoteInfo = GFQuickStart;
+		};
+		C2A3B96221A34798004D7393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A3B93A21A34797004D7393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A3B94121A34797004D7393;
+			remoteInfo = GFQuickStart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179E9621446C9331C182D093 /* Pods_GFQuickStart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFQuickStart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		254B3836B212F618E6020D18 /* Pods-GFQuickStart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFQuickStart.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFQuickStart/Pods-GFQuickStart.release.xcconfig"; sourceTree = "<group>"; };
+		BA53F4E1CF42A2309AC442DC /* Pods-GFQuickStart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFQuickStart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFQuickStart/Pods-GFQuickStart.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A3B94221A34797004D7393 /* GFQuickStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFQuickStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A3B94521A34797004D7393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2A3B94721A34797004D7393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2A3B94A21A34797004D7393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2A3B94C21A34798004D7393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2A3B94F21A34798004D7393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2A3B95121A34798004D7393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A3B95621A34798004D7393 /* GFQuickStartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFQuickStartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A3B95A21A34798004D7393 /* GFQuickStartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFQuickStartTests.swift; sourceTree = "<group>"; };
+		C2A3B95C21A34798004D7393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A3B96121A34798004D7393 /* GFQuickStartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFQuickStartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A3B96521A34798004D7393 /* GFQuickStartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFQuickStartUITests.swift; sourceTree = "<group>"; };
+		C2A3B96721A34798004D7393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2A3B93F21A34797004D7393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668B19A2ECF51B49B56D3396 /* Pods_GFQuickStart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A3B95321A34798004D7393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A3B95E21A34798004D7393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38885FD523374977142071A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				179E9621446C9331C182D093 /* Pods_GFQuickStart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		760EC55C14B145AC1D83EE0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA53F4E1CF42A2309AC442DC /* Pods-GFQuickStart.debug.xcconfig */,
+				254B3836B212F618E6020D18 /* Pods-GFQuickStart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2A3B93921A34797004D7393 = {
+			isa = PBXGroup;
+			children = (
+				C2A3B94421A34797004D7393 /* GFQuickStart */,
+				C2A3B95921A34798004D7393 /* GFQuickStartTests */,
+				C2A3B96421A34798004D7393 /* GFQuickStartUITests */,
+				C2A3B94321A34797004D7393 /* Products */,
+				760EC55C14B145AC1D83EE0D /* Pods */,
+				38885FD523374977142071A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2A3B94321A34797004D7393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3B94221A34797004D7393 /* GFQuickStart.app */,
+				C2A3B95621A34798004D7393 /* GFQuickStartTests.xctest */,
+				C2A3B96121A34798004D7393 /* GFQuickStartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2A3B94421A34797004D7393 /* GFQuickStart */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3B94521A34797004D7393 /* AppDelegate.swift */,
+				C2A3B94721A34797004D7393 /* ViewController.swift */,
+				C2A3B94921A34797004D7393 /* Main.storyboard */,
+				C2A3B94C21A34798004D7393 /* Assets.xcassets */,
+				C2A3B94E21A34798004D7393 /* LaunchScreen.storyboard */,
+				C2A3B95121A34798004D7393 /* Info.plist */,
+			);
+			path = GFQuickStart;
+			sourceTree = "<group>";
+		};
+		C2A3B95921A34798004D7393 /* GFQuickStartTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3B95A21A34798004D7393 /* GFQuickStartTests.swift */,
+				C2A3B95C21A34798004D7393 /* Info.plist */,
+			);
+			path = GFQuickStartTests;
+			sourceTree = "<group>";
+		};
+		C2A3B96421A34798004D7393 /* GFQuickStartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3B96521A34798004D7393 /* GFQuickStartUITests.swift */,
+				C2A3B96721A34798004D7393 /* Info.plist */,
+			);
+			path = GFQuickStartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2A3B94121A34797004D7393 /* GFQuickStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A3B96A21A34798004D7393 /* Build configuration list for PBXNativeTarget "GFQuickStart" */;
+			buildPhases = (
+				1ED4346D08D3ECA61955C223 /* [CP] Check Pods Manifest.lock */,
+				C2A3B93E21A34797004D7393 /* Sources */,
+				C2A3B93F21A34797004D7393 /* Frameworks */,
+				C2A3B94021A34797004D7393 /* Resources */,
+				69820B9EE4CD6F5BE89BF3D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFQuickStart;
+			productName = GFQuickStart;
+			productReference = C2A3B94221A34797004D7393 /* GFQuickStart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2A3B95521A34798004D7393 /* GFQuickStartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A3B96D21A34798004D7393 /* Build configuration list for PBXNativeTarget "GFQuickStartTests" */;
+			buildPhases = (
+				C2A3B95221A34798004D7393 /* Sources */,
+				C2A3B95321A34798004D7393 /* Frameworks */,
+				C2A3B95421A34798004D7393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A3B95821A34798004D7393 /* PBXTargetDependency */,
+			);
+			name = GFQuickStartTests;
+			productName = GFQuickStartTests;
+			productReference = C2A3B95621A34798004D7393 /* GFQuickStartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2A3B96021A34798004D7393 /* GFQuickStartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A3B97021A34798004D7393 /* Build configuration list for PBXNativeTarget "GFQuickStartUITests" */;
+			buildPhases = (
+				C2A3B95D21A34798004D7393 /* Sources */,
+				C2A3B95E21A34798004D7393 /* Frameworks */,
+				C2A3B95F21A34798004D7393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A3B96321A34798004D7393 /* PBXTargetDependency */,
+			);
+			name = GFQuickStartUITests;
+			productName = GFQuickStartUITests;
+			productReference = C2A3B96121A34798004D7393 /* GFQuickStartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2A3B93A21A34797004D7393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ben Tally";
+				TargetAttributes = {
+					C2A3B94121A34797004D7393 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C2A3B95521A34798004D7393 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C2A3B94121A34797004D7393;
+					};
+					C2A3B96021A34798004D7393 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C2A3B94121A34797004D7393;
+					};
+				};
+			};
+			buildConfigurationList = C2A3B93D21A34797004D7393 /* Build configuration list for PBXProject "GFQuickStart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2A3B93921A34797004D7393;
+			productRefGroup = C2A3B94321A34797004D7393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A3B94121A34797004D7393 /* GFQuickStart */,
+				C2A3B95521A34798004D7393 /* GFQuickStartTests */,
+				C2A3B96021A34798004D7393 /* GFQuickStartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2A3B94021A34797004D7393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3B95021A34798004D7393 /* LaunchScreen.storyboard in Resources */,
+				C2A3B94D21A34798004D7393 /* Assets.xcassets in Resources */,
+				C2A3B94B21A34797004D7393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A3B95421A34798004D7393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A3B95F21A34798004D7393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED4346D08D3ECA61955C223 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GFQuickStart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69820B9EE4CD6F5BE89BF3D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GFQuickStart/Pods-GFQuickStart-frameworks.sh",
+				"${PODS_ROOT}/CouchbaseLite/iOS/CouchbaseLite.framework",
+				"${PODS_ROOT}/CouchbaseLite/iOS/CouchbaseLite.framework.dSYM",
+				"${PODS_ROOT}/GeoFrenzy/GeoFrenzy/Frameworks/GeoFrenzy.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CouchbaseLite.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/CouchbaseLite.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GeoFrenzy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFQuickStart/Pods-GFQuickStart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2A3B93E21A34797004D7393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3B94821A34797004D7393 /* ViewController.swift in Sources */,
+				C2A3B94621A34797004D7393 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A3B95221A34798004D7393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3B95B21A34798004D7393 /* GFQuickStartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A3B95D21A34798004D7393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3B96621A34798004D7393 /* GFQuickStartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2A3B95821A34798004D7393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A3B94121A34797004D7393 /* GFQuickStart */;
+			targetProxy = C2A3B95721A34798004D7393 /* PBXContainerItemProxy */;
+		};
+		C2A3B96321A34798004D7393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A3B94121A34797004D7393 /* GFQuickStart */;
+			targetProxy = C2A3B96221A34798004D7393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2A3B94921A34797004D7393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A3B94A21A34797004D7393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2A3B94E21A34798004D7393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A3B94F21A34798004D7393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2A3B96821A34798004D7393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2A3B96921A34798004D7393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2A3B96B21A34798004D7393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA53F4E1CF42A2309AC442DC /* Pods-GFQuickStart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P99LQQZNUY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = GFQuickStart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.geofrenzy.GFQuickStart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2A3B96C21A34798004D7393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254B3836B212F618E6020D18 /* Pods-GFQuickStart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P99LQQZNUY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = GFQuickStart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.geofrenzy.GFQuickStart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2A3B96E21A34798004D7393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P99LQQZNUY;
+				INFOPLIST_FILE = GFQuickStartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.geofrenzy.GFQuickStartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFQuickStart.app/GFQuickStart";
+			};
+			name = Debug;
+		};
+		C2A3B96F21A34798004D7393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P99LQQZNUY;
+				INFOPLIST_FILE = GFQuickStartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.geofrenzy.GFQuickStartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFQuickStart.app/GFQuickStart";
+			};
+			name = Release;
+		};
+		C2A3B97121A34798004D7393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P99LQQZNUY;
+				INFOPLIST_FILE = GFQuickStartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.geofrenzy.GFQuickStartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GFQuickStart;
+			};
+			name = Debug;
+		};
+		C2A3B97221A34798004D7393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P99LQQZNUY;
+				INFOPLIST_FILE = GFQuickStartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.geofrenzy.GFQuickStartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GFQuickStart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2A3B93D21A34797004D7393 /* Build configuration list for PBXProject "GFQuickStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A3B96821A34798004D7393 /* Debug */,
+				C2A3B96921A34798004D7393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A3B96A21A34798004D7393 /* Build configuration list for PBXNativeTarget "GFQuickStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A3B96B21A34798004D7393 /* Debug */,
+				C2A3B96C21A34798004D7393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A3B96D21A34798004D7393 /* Build configuration list for PBXNativeTarget "GFQuickStartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A3B96E21A34798004D7393 /* Debug */,
+				C2A3B96F21A34798004D7393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A3B97021A34798004D7393 /* Build configuration list for PBXNativeTarget "GFQuickStartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A3B97121A34798004D7393 /* Debug */,
+				C2A3B97221A34798004D7393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2A3B93A21A34797004D7393 /* Project object */;
+}

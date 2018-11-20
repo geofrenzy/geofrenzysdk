@@ -32,6 +32,12 @@
 
 @property (nonatomic) NSUInteger hashValue;
 
+/**
+ The geometry points in GF encoding
+ 
+ @warning  This is a private API and is not intended for final public release
+ */
+@property (nonatomic, strong) NSMutableArray* _Nonnull recordParts;
 
 /**
  The uniquie id of this fence
@@ -41,12 +47,7 @@
  The geometry points of this fence represented in cartisian lon/lat coordinates
  */
 @property (nonatomic, strong) NSMutableArray* _Nonnull geometry;
-/**
- The geometry points in GF encoding
- 
- @warning  This is a private API and is not intended for final public release
- */
-@property (nonatomic, strong) NSMutableArray* _Nonnull recordParts;
+
 /**
  The centroid point of this fence in geodetic lon/lat coordinates
  */

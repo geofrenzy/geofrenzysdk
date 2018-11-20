@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GeoFrenzy'
-  s.version          = '0.6.0'
+  s.version          = '0.6.1'
   s.summary          = 'GeoFrenzy allows your apps to access the global (.place) geofence registry.'
   s.homepage         = 'https://developer.smartfences.place'
   s.license          = { :type => 'Proprietary', :file => 'LICENSE' }

@@ -63,7 +63,7 @@ typedef enum {
 @property (nonatomic, strong) id _Nullable goalValue;
 @property (nonatomic) Boolean interiorFocus;
 @property (nonatomic) cuRuleType ruleType;
-@property (nonatomic, strong) RuleType* rule;
+@property (nonatomic, strong) RuleType* _Nonnull rule;
 @property (nonatomic,strong) id _Nullable currentGoalValue;
 
 //@property (nonatomic, strong) NSDictionary* _Nonnull currentStates;

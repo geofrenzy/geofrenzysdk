@@ -65,8 +65,8 @@
 - (Boolean) complianceUnitIsCompliant: (id _Nonnull) cu;
 - (ComplianceUnit*_Nonnull) complianceUnitFromRule: (RuleType*_Nonnull) rule;
 - (NSString*_Nonnull) keyForRule: (RuleType*_Nonnull) rule;
-- (void) addComplianceUnitForRule: (RuleType*) rule;
-- (void) removeComplianceUnitForRule: (RuleType*) rule;
+- (void) addComplianceUnitForRule: (RuleType* _Nonnull) rule;
+- (void) removeComplianceUnitForRule: (RuleType* _Nonnull) rule;
 
 @end
 

@@ -48,9 +48,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString*_Nonnull) geoDomainForOperationName:(NSString*_Nonnull) operationName;
 
 
-- (void) registerStateForMonitoring: (NSString*) propertyName withPath: (NSString*) path onObject: (id) object;
-- (void) registerStateForMonitoring: (NSString*) propertyName withPath: (NSString*) path onObject: (id) object atRate: (double) seconds;
-- (void) registerCommandHandler: (NSString*) methodName withPath: (NSString*) path onObject: (id) object;
+- (void) registerCondition: (NSString*) propertyName withPath: (NSString*) path onObject: (id) object;
+- (void) registerCondition: (NSString*) propertyName withPath: (NSString*) path onObject: (id) object atRate: (double) seconds;
+- (void) registerAction: (NSString*) methodName withPath: (NSString*) path onObject: (id) object;
 
 + (instancetype)sharedInstance;
 
