@@ -15,3 +15,7 @@
 #define GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS 0
 
 #endif /* PrefixHeader_pch */
+
+#ifndef DEBUG
+#define NSLog(...);
+#endif
