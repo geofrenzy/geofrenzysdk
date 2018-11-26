@@ -198,5 +198,6 @@ Frequency in seconds at which the Fence Factory should fetch and assemble messag
 - (id) init;
 + (instancetype) sharedInstance;
 - (void) synchronize;
+- (void) moveGeoDomainFromIndex:(NSUInteger)from toIndex:(NSUInteger)to ;
 
 @end

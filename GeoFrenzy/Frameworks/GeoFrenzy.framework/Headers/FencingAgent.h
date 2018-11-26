@@ -349,6 +349,8 @@
 - (void) deactivateRulespaceForFenceNotification:(NSNotification*_Nonnull) n;
 
 - (void) rangeMonitor: (NSTimer*_Nullable)timer;
+- (void) addFenceToApproachingSet: (SmartFence*) fence;
+- (void) removeFenceFromApproachingSet: (SmartFence*) fence;
 
 NS_ASSUME_NONNULL_BEGIN
 - (MapType*) getMapWithName: (NSString*) domainName;

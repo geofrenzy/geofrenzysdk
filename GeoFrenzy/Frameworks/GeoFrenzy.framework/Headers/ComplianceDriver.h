@@ -40,6 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSMutableArray* _Nonnull flatFdnStates;
 @property (nonatomic, strong) NSMutableArray* _Nonnull flatFdnCommandNames;
 @property (nonatomic, strong) NSMutableArray* _Nonnull flatFdnAllNames;
+@property (nonatomic, strong) NSMutableArray* _Nonnull flatCompliance;
 @property (nonatomic) Boolean fdnNameSpaceIsInitialized;
 
 - (NSString*_Nullable) propertyNameForGeodomain:(NSString*_Nonnull) propertyName;

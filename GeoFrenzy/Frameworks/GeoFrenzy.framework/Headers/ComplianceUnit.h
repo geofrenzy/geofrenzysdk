@@ -52,6 +52,7 @@ typedef enum {
 @property (nonatomic) int32_t flatNamespaceCommandIndex;
 @property (nonatomic) SEL _Nullable commandSelector;
 @property (nonatomic) Boolean isCompliant;
+@property (nonatomic, strong) id _Nullable lastCommandArgementSent;
 @property (nonatomic, strong) id _Nullable interiorCommandArgument;
 @property (nonatomic, strong) id _Nullable exteriorCommandArgument;
 @property (nonatomic, strong) id _Nullable interiorRule;

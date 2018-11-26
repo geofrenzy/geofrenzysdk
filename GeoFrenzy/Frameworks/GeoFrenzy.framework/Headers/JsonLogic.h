@@ -12,6 +12,7 @@
 @interface JsonLogic : NSObject
 
 @property JSContext *context;
+
 - (Boolean) evaluate: (NSString*) logic  withData: (NSString*) data;
 
 
