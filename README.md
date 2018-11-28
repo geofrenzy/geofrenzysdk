@@ -29,6 +29,8 @@ Protobuf, https://github.com/protocolbuffers/protobuf
 
 CouchbaseLite, https://github.com/couchbase/couchbase-lite-ios
 
+json-logic, https://github.com/jwadhams/json-logic-js/
+
 ## Author
 
 Ben Tally, ben.tally@geo.network
