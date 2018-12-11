@@ -1,6 +1,0 @@
-framework module GeoFrenzy {
-  umbrella header "GeoFrenzy.h"
-
-  export *
-  module * { export * }
-}
